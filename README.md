@@ -8,7 +8,7 @@ Simple front-end project.
 
 Realization of the system for the work of the bookstore "Perce".
 
-Project contains 3 phases:\
+Project contains 3 phases:
 - Analysis of user requirements from the point of view of user interface development
 - prototype
 - implementation
