@@ -1,0 +1,12 @@
+Nisam sigurna da li otvaranjem jednog linka moze da se pristupi svim stranama prototipa, pa iz tog razloga evo razliciti linkovi, ka svakom Page-u:
+
+Kupac-web:
+https://www.figma.com/file/hhMnMIqCkv2mdVrMgO94Dw/Knjizara-Perce?node-id=0%3A1
+
+Kupac-android:
+https://www.figma.com/file/hhMnMIqCkv2mdVrMgO94Dw/Knjizara-Perce?node-id=27%3A55
+
+Prodavac:
+https://www.figma.com/file/hhMnMIqCkv2mdVrMgO94Dw/Knjizara-Perce?node-id=27%3A54
+
+U prilogu je takodje za svaki slucaj i .fig fajl.
