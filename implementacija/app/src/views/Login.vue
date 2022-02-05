@@ -88,8 +88,8 @@ export default {
         return{
             username: "",
             password: "",
-            tip_posetilac: false,
-            tip_zaposleni: false,
+            tip_kupac: false,
+            tip_prodavac: false,
             error: ""
         }
     },
@@ -112,8 +112,12 @@ export default {
                     if(korisnik.password == this.password){
                         if(korisnik.tip == "prodavac"){
                             this.$router.push('prodavac');
+                            localStorage.setItem("username", this.username);
+                            localStorage.setItem("type", "prodavac");
                         }else if(korisnik.tip == "kupac"){
                             this.$router.push('kupac');
+                            localStorage.setItem("username", this.username);
+                            localStorage.setItem("type", "kupac");
                         }
                     }
                 }
