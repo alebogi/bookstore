@@ -20,8 +20,15 @@ const users = [
         tip: "kupac",
         username: "laza",
         password: "laza123"
+    },
+    {
+        ime: "Djura",
+        prezime: "Medovic",
+        tip: "prodavac",
+        username: "djuka",
+        password: "djukibuki"
     }
-
+    
 ]
 
 export default users;

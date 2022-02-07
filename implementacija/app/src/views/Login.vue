@@ -118,11 +118,17 @@ export default {
                             this.$router.push('kupac');
                             localStorage.setItem("username", this.username);
                             localStorage.setItem("type", "kupac");
+                        }else{
+                            this.error = "Pogresno uneti podaci";
                         }
+                    }else{
+                        this.error = "Pogresno uneti podaci";
                     }
+                }else{
+                    this.error = "Pogresno uneti podaci";
                 }
             })
-            this.error = "Pogresno uneti podaci";
+            
         }
     },
     created(){

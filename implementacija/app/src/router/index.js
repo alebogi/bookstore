@@ -20,6 +20,11 @@ const routes = [
     path: '/prodavac',
     name: 'Prodavac',
     component: () => import('../views/Prodavac.vue')
+  },
+  {
+    path: '/mojProfil',
+    name: 'MojProfil',
+    component: () => import('../views/MojProfil.vue')
   }
 ]
 
